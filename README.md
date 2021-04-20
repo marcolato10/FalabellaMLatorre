@@ -1,2 +1,2 @@
-# purocrack-bf
-sistema purocrack version angular + laravel 
+# marco latorre
+respuesta a test de falabella 
