@@ -12,9 +12,28 @@ $aux1=$imp->arreglo_final($num,$tres,"Fallabella");
 $aux2=$imp->arreglo_final($aux1,$cinco,"IT");
 $aux3=$imp->arreglo_final($aux2,$mcm,"Integraciones");
 
-echo "<pre>";
-print_r($aux3);
-echo "</pre>";
+
+			$mostrar='';
+			$mostrar.= '<table border="1">
+						<tr>
+							<td>Valor real</td>
+							<td>valor solicitado</td>
+						</tr>
+						';
+
+			
+			foreach ($aux3 as $num => $valor) {	
+				$mostrar.= '<tr>
+							<td>'.$num.'</td>
+							<td>'.$valor.'</td>
+						</tr>'; 
+					
+			}		
+			$mostrar .= '</table>';
+
+
+echo $mostrar .'<br>';		
+
 
 
 ?>
