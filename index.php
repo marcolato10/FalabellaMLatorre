@@ -9,7 +9,7 @@ for ($i = 1; $i < 101; $i++) {
 
 $imp = new imprimir();
 $aux1=$imp->arreglo_final($num,$tres,"Fallabella");
-$aux2=$imp->arreglo_final($aux1,$cinco,"ESO");
+$aux2=$imp->arreglo_final($aux1,$cinco,"IT");
 $aux3=$imp->arreglo_final($aux2,$mcm,"Integraciones");
 
 echo "<pre>";
